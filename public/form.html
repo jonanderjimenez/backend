@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+<meta charset="UTF-8">
+ <title>POST metodoa erabiltzen duen inprimakia</title>
+</head>
+ <body>
+<form action="/bezeroa" method="POST">
+Izena: <input type="text" name="izena"><br>
+Email: <input type="text" name="email"><br>
+Password: <input type="password" name="password"><br>
+Confirm Password: <input type="password" name="confirmpassword"><br>
+Gender:
+<select name="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Non-binary">Non-binary</option>
+</select><br>
+Date of birth: <input type="date" name="birthdate"><br>
+Address: <textarea name="address" rows="3" cols="50"></textarea><br>
+City: <input type="text" name="city"><br>
+Zip Code: <input type="number" name="<zipcode>"><br>
+I agree to the terms conditions:<input type="checkbox" name="terms" value="yes"><br>
+
+<input type="submit" value="Bidali">
+
+</form>
+</body>
+</html>
